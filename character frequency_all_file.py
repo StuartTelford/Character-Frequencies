@@ -1,9 +1,9 @@
 # Count character frequency in text from file
 # 2022125
 
-file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Declaration of Independence.txt', 'r')
-# file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Lorum Ipsum.txt', 'r')
-# file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Gettysburg Address.txt', 'r')
+file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Text Files to Analyse\Declaration of Independence.txt', 'r')
+# file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Text Files to Analyse\Lorum Ipsum.txt', 'r')
+# file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Text Files to Analyse\Gettysburg Address.txt', 'r')
 source_txt = (file_to_analyse.read())
 file_to_analyse.close()
 
