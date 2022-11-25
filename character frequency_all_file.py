@@ -1,10 +1,13 @@
 # Count character frequency in text from file
+# 2022125
 
-f = open('S:\Python\PyCharm Projects\Character-Frequencies\Declaration of Independence.txt', 'r')
-# f = open('S:\Python\PyCharm Projects\Character-Frequencies\Ipsum.txt', 'r')
-source_txt = (f.read())
+file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Declaration of Independence.txt', 'r')
+# file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Lorum Ipsum.txt', 'r')
+# file_to_analyse = open('S:\Python\PyCharm Projects\Character-Frequencies\Gettysburg Address.txt', 'r')
+source_txt = (file_to_analyse.read())
+file_to_analyse.close()
 
-# Set elements in list to 0
+# Create list and set elements to 0
 alpha = []
 for i in range(0, 126):  # Printable characters 32-126
     alpha.append(0)
