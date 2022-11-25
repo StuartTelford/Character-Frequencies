@@ -20,5 +20,13 @@ for tst_char in range(len(source_txt)):
 # Print character counts
 for i in range(32, 126):  # Printable characters
     print(chr(i) + " =", alpha[i])
+    # print(chr(i) + " =", alpha[i], '*' * int(alpha[i] / 4))
+
+alpha.sort()
+print()
+
+for i in range(32, 126):  # Printable characters
+    # print(chr(i) + " =", alpha[i])
+    print(chr(i) + " =", alpha[i], '*' * int(alpha[i] / 4))
 
 print(sum(alpha), 'Characters in text')
