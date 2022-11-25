@@ -1,5 +1,5 @@
 # Count vowels in text
-# 20221122
+# 20221125
 
 source_txt_original = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet elit gravida, tempor tortor eget, tincidunt mauris. Nunc aliquet quam nec metus cursus lacinia. Cras tempus eget nibh et dictum. Donec at volutpat tortor, sit amet gravida risus. Pellentesque facilisis in quam at faucibus. In hac habitasse platea dictumst. Ut varius dapibus pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat mi maximus, gravida purus at, maximus libero. Aenean a pharetra orci. Donec dignissim ante quis elit dapibus, eu elementum augue ullamcorper. Proin tempor enim eget nunc ultricies, eu sagittis quam iaculis. Nam commodo porta mi, non lobortis leo tincidunt sed. Nunc sit amet placerat justo, non porta justo. Maecenas ultrices, justo sed vulputate lacinia, lorem tellus lobortis felis, ut lobortis arcu nulla condimentum dolor. Proin cursus justo at ullamcorper ultrices.'
 
@@ -27,4 +27,11 @@ print('Source Text')
 print(source_txt_original)
 print('Length:',len(source_txt))
 print('\nVowel Frequencies in Text')
-print('a:',a,'e:', e, 'i:',i, 'o:',o, 'u:',u)
+# print('a =',a,'\ne =', e, '\ni =',i, '\no =',o, '\nu =',u)
+print()
+print('a = '+ str(a), '*' * a)
+print('e = '+ str(e), '*' * e)
+print('i = '+ str(i), '*' * i)
+print('o = '+ str(o), '*' * o)
+print('u = '+ str(u), '*' * u)
+
